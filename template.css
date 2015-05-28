@@ -1,0 +1,264 @@
+body {
+	background-image: url("achtergrond2.psd");
+	background-size: cover;
+}
+
+.main {
+	width: 1000px;
+	height: 900px;
+	background-color: white;
+	margin: 10px auto 10px auto;
+}
+
+.navigatie {
+	background-color: black;
+	height: 60px;
+}
+
+.klein {
+	width: 50px;
+	margin-top: -20px;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	float: left;
+	margin: 20px 15px 10px 15px;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #c3dfef;
+}
+
+.logo {
+	width: 500px;
+	margin: 170px 150px -40px 140px;
+	border-bottom: 2px solid black;
+	padding: 20px;
+}
+
+#tfheader{
+		margin: 50px 160px 50px 20px;
+
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+		width: 600px;
+		
+	}
+	.tftextinput4{
+		margin: 0;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid gray; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;	
+	}
+	.tfbutton4 {
+		margin: 0;
+		padding: 0;
+		width:30px;
+		height:31px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px gray; border-right:0px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		background: black url('magnifier_256.png');
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton4::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+	input {
+		width: 480px;
+	}
+
+
+
+	.meestbezocht {
+		margin-left: 90px;
+	}
+
+	.youtube {
+		margin-left: 50px;
+		width: 200px;
+		border-radius: 10px;
+		border: 1px solid lightgray;
+
+	}
+
+	.apstart {
+		width: 200px;
+		border-radius: 10px;
+		border: 1px solid lightgray;
+	}
+
+	.facebook {
+		width: 200px;
+		border-radius: 10px;
+		border: 1px solid lightgray;
+	}
+
+	
+
+@media screen and (max-width: 1200px) {
+.main {
+	width: 700px;
+}
+
+a {
+	font-size: 10pt;
+	margin: 20px 15px 10px 15px;
+	
+
+}
+.logo {
+	width: 60%;
+	margin: 170px 130px -40px 120px;
+
+}
+#tfheader{
+		margin: 50px -40px 50px 220px;
+
+	}
+.tfbutton4 {
+	width: 20px;
+}
+input {
+	width: 68%;
+
+}
+.youtube {
+		width: 160px;
+		
+
+}
+
+.apstart {
+		width: 160px;
+
+}
+
+.facebook {
+		width: 160px;
+
+}
+.meestbezocht {
+		margin-left: 10px;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+.main {
+	width: 600px;
+}
+
+a {
+	font-size: 10pt;
+	margin: 20px 10px 10px 10px;
+	
+
+}
+
+.logo {
+	width: 60%;
+	margin: 170px 150px -40px 100px;
+
+}
+#tfheader{
+		margin: 50px -120px 50px 300px;
+
+	}
+.tfbutton4 {
+	width: 20px;
+}
+input {
+	width: 58%;
+
+}
+.youtube {
+		width: 140px;
+		
+
+}
+
+.apstart {
+		width: 140px;
+
+}
+
+.facebook {
+		width: 140px;
+
+}
+.meestbezocht {
+		margin-left: 0px;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+.main {
+	width: 500px;
+}
+a {
+	font-size: 9pt;
+	margin: 20px 7px 10px 7px;
+	
+
+}
+
+.logo {
+	width: 60%;
+	margin: 170px 180px -40px 70px;
+
+}
+#tfheader{
+		margin: 50px -190px 50px 370px;
+
+	}
+.tfbutton4 {
+	width: 20px;
+}
+input {
+	width: 48%;
+
+}
+.youtube {
+		width: 120px;
+		
+
+}
+
+.apstart {
+		width: 120px;
+
+}
+
+.facebook {
+		width: 120px;
+
+}
+.meestbezocht {
+		margin-left: -15px;
+}
+}
+
